@@ -1,7 +1,5 @@
 # DemystifyingJarLoadingIssue
 
-java -cp 'FirstJar/target/FirstJar-1.0-SNAPSHOT.jar:SecondJar/target/SecondJar-1.0-SNAPSHOT.jar' com.himanshu.poc.Class1
-
 
 Requirements
 -------------
@@ -17,3 +15,8 @@ Run Program
 2. cd DemystifyingJarLoadingIssue
 3. mvn clean install
 4. java -cp 'FirstJar/target/FirstJar-1.0-SNAPSHOT.jar:SecondJar/target/SecondJar-1.0-SNAPSHOT.jar' com.himanshu.poc.Class1
+
+
+Output
+------
+Class1 from Second Jar!
